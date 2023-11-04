@@ -1,0 +1,1056 @@
+/* Main Banner */
+.mainBanner {
+    background-image: url(../assets/bannerBackground.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    height: 760px;
+}
+
+.mainBanner>.container {
+    display: flex;
+    margin-top: 182px;
+}
+
+/* Main Title */
+.mainBanner .mainTitleDiv {
+    width: 40%;
+    margin-right: 52px;
+}
+
+.mainBanner .mainTitleDiv h1 {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    color: #333333;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 67.50px;
+    margin-top: 21px;
+}
+
+.mainBanner .mainTitleDiv h1 span {
+    color: #DD71C6;
+}
+
+.mainDescription {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.60px;
+    margin: 26px 0;
+    animation-delay: .4s;
+}
+
+.mainButton {
+    background-color: #DD71C6;
+    animation-delay: .6s;
+}
+
+.mainButton:hover {
+    background-color: #db49bc;
+}
+
+/* Countdown */
+.mainBanner .countdownDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* width: 630px;
+    height: 321px; */
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.592);
+    backdrop-filter: blur(15px);
+    padding: 42px;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.countdownDiv>p {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 53px 0;
+}
+
+.countdownTime {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 39px;
+}
+
+.countdownTime div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.countdownTime label {
+    color: #0083D3;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32.02px;
+    letter-spacing: 5.85px;
+    margin-bottom: 30px;
+}
+
+.countdownTime span {
+    text-align: center;
+    border: 0;
+    background-color: transparent;
+    width: 65px;
+    color: #333333;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 88.95px;
+}
+
+/* Section 1 */
+.section1 {
+    background-image: url(../assets/section1Background.svg);
+    height: 570px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.section1 .container {
+    align-items: center;
+    text-align: center;
+}
+
+.section1 div button {
+    margin-top: 68px;
+    background-color: #FFD900;
+}
+
+.section1 div button:hover {
+    background-color: #ffe65a;
+}
+
+.statisticsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.statisticsDiv>div {
+    width: 25%;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 264px;
+}
+
+.statisticsDiv>div .statisticCount {
+    color: #333333;
+    font-size: 40px;
+    font-weight: 500;
+    display: inline-block;
+    margin: 35px 5px;
+}
+
+.statisticsDiv>div span {
+    color: #C4C4C4;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 71.16px;
+    word-wrap: break-word
+}
+
+.statisticsDiv>div>.shortDescription {
+    margin: 0;
+    line-height: 28.51px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.statisticsDiv>div>i {
+    width: 47px;
+    height: 47px;
+    background-size: 47px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 16px;
+}
+
+.statisticsDiv>div:nth-child(1) i {
+    background-image: url(../assets/icons/briefcase.svg);
+}
+
+.statisticsDiv>div:nth-child(2) i {
+    background-image: url(../assets/icons/smile.svg);
+}
+
+.statisticsDiv>div:nth-child(3) i {
+    background-image: url(../assets/icons/message.svg);
+}
+
+.statisticsDiv>div:nth-child(4) i {
+    background-image: url(../assets/icons/activity.svg);
+}
+
+/* Section 2 */
+.section2 {
+    background-image: url(../assets/section2Background.svg);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.section2 .container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.section2 div h2 {
+    font-size: 32px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    line-height: 51.20px;
+    margin: 15px 0;
+}
+
+.section2 div p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 403px;
+    line-height: 25.60px;
+    margin: 0 0 37px 0;
+}
+
+.section2 div p:nth-child(2) {
+    margin-bottom: 54px;
+    max-width: 388px;
+}
+
+.section2 div button {
+    background-color: #DD71C6;
+}
+
+.section2 div img {
+    width: 550px;
+}
+
+/* Section 3 */
+.section3 {
+    height: 800px;
+}
+
+.section3 .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.section3 .container h2 {
+    padding-top: 89px;
+    margin: 0;
+    color: #333333;
+    font-size: 32px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    line-height: 51.20px;
+}
+
+.section3 .container p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.60px;
+}
+
+.section3 .container button {
+    display: inline-block;
+    width: fit-content;
+    text-align: center;
+    background-color: #DD71C6;
+}
+
+.section3 .container img {
+    width: 1050px
+}
+
+/* Section 4 */
+.section4 {
+    height: 796px;
+    background-image: url(../assets/section4Background.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.section4 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 h2 {
+    color: #333333;
+    font-size: 32px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    line-height: 51.20px;
+    text-align: center;
+    margin: 35px 0 64px 0;
+}
+
+.section4 h2 span {
+    color: #DD71C6;
+}
+
+.consultationBenefits {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.consultationBenefits>div {
+    width: 447px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 391px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.consultationBenefits h3 {
+    font-size: 24px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    line-height: 41.40px;
+    text-align: center;
+    margin: 0;
+}
+
+.consultationBenefits .benefitBlue h3 {
+    color: #0083D3;
+}
+
+.consultationBenefits .benefitPink h3 {
+    color: #DD71C6;
+}
+
+.consultationBenefits hr {
+    height: 1px;
+    border: 0;
+    margin: 39px 0;
+}
+
+.consultationBenefits .benefitBlue hr {
+    background-color: #B1E2FF;
+}
+
+.consultationBenefits .benefitPink hr {
+    background-color: #dd71c6c4;
+}
+
+.consultationBenefits ul {
+    padding: 0;
+}
+
+.consultationBenefits ul li {
+    color: #333333;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.60px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.consultationBenefits ul li p {
+    margin: 0;
+}
+
+
+.consultationBenefits ul li::before {
+    content: '';
+    background-color: #333333;
+    width: 2px;
+    height: 2px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.section4 button {
+    background-color: #DD71C6;
+    margin-top: 88px;
+}
+
+/* Section 5 */
+.section5 {
+    height: 1446px;
+    background-image: url(../assets/section5Background.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.section5 .container {
+    text-align: center;
+}
+
+.section5 h2 {
+    color: #333333;
+    font-size: 32px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    line-height: 51.20px;
+    margin: 0 0 64px 0;
+    text-align: left;
+}
+
+.section5 button {
+    margin-top: 83px;
+    background-color: #DD71C6;
+}
+
+.dropdownFAQ {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.question {
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    padding: 20px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27.60px;
+    background-color: #F9F9F9;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.question p {
+    margin: 0;
+    width: 95%;
+}
+
+.arrowFAQ {
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/icons/pinkArrow.svg);
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 40px;
+    transition: all ease .4s;
+}
+
+.rotateArrowFAQ {
+    transform: rotate(180deg);
+}
+
+.answer {
+    display: none;
+    animation: downFadeIn .4s forwards;
+    text-align: left;
+    margin: 0 40px;
+}
+
+@keyframes downFadeIn {
+    0% {
+        height: 0px;
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        height: 100%;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .mainBanner .mainTitleDiv {
+        width: 45%;
+    }
+    .mainBanner .countdownDiv {
+        padding: 25px 15px;
+    }
+    .countdownTime {
+        gap: 25px;
+    }
+}
+@media (max-width: 1000px) {
+    main {
+        padding-top: 105px;
+    }
+
+    .mainBanner {
+        background-image: url(../assets/bannerBackgroundTablet.svg);
+        background-position: top center;
+    }
+
+    .mainBanner>.container {
+        display: block;
+        margin-top: 0;
+    }
+
+    .mainBanner .mainTitleDiv {
+        width: 100%;
+    }
+
+    .mainBanner .mainTitleDiv h1 {
+        width: 75%;
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .spotsAvailable {
+        margin: 38px 0;
+        color: #333333;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.34px;
+        text-align: center;
+    }
+
+    .spotsAvailable span {
+        color: #DD71C6;
+        font-weight: bold;
+    }
+
+    .mainBanner .countdownDiv {
+        width: fit-content;
+        margin: auto;
+        padding: 36px;
+        border-radius: 30px;
+    }
+
+    .countdownTime {
+        gap: 15px;
+    }
+
+    .countdownDiv>p {
+        margin-bottom: 20px;
+    }
+
+    .countdownTime label {
+        font-size: 12px;
+        letter-spacing: 3.90px;
+        line-height: 21.35px;
+        margin-bottom: 19px;
+    }
+
+    .countdownTime span {
+        width: 50px;
+        font-size: 36px;
+        line-height: 64.04px;
+    }
+
+    .mainDescriptionDivMobile {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainDescription {
+        padding-right: 45%;
+        box-sizing: border-box;
+        margin-top: 58px;
+        font-size: 16px;
+        line-height: 25.60px;
+    }
+
+    .mainButton {
+
+        margin: auto;
+    }
+
+    /* Section 1 */
+    .section1 {
+        height: auto;
+        background-image: url(../assets/section1BackgroundTablet.svg);
+    }
+    .section1 .container{
+        padding: 43px 0;
+    }
+    .statisticsDiv {
+        gap: 24px;
+    }
+
+    .statisticsDiv>div {
+        padding: 20px 10px;
+        height: 215px;
+        box-sizing: border-box;
+    }
+
+    .statisticsDiv>div>i {
+        width: 24px;
+        min-height: 24px;
+        height: 24px;
+        background-size: 24px;
+        margin-top: 0px;
+    }
+
+    .statisticsDiv>div .statisticCount {
+        font-size: 24px;
+        line-height: 42.70px;
+        margin: 10px 0;
+    }
+
+    .statisticsDiv>div span {
+        font-size: 20px;
+        line-height: 35.58px;
+    }
+
+    .statisticsDiv>div>.shortDescription {
+        font-size: 16px;
+        line-height: 25.34px;
+        flex-flow: column;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section1 div button {
+        margin-top: 31px;
+    }
+
+    /* Section 2 */
+    .section2 {
+        background-image: url(../assets/section2BackgroundTablet.svg);
+        height: 1240px;
+        align-items: start;
+    }
+
+    .section2 .container {
+        flex-direction: column;
+        text-align: center;
+        width: 440px;
+        margin: 0 auto;
+    }
+
+    .section2 div h2 {
+        width: 80%;
+        text-align: left;
+    }
+
+    .section2 div h2:nth-child(1) {
+        margin-top: 52px;
+    }
+
+    .section2 div h2:nth-child(3) {
+        margin-bottom: 30px;
+    }
+
+    .section2 div p {
+        max-width: 98% !important;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .section2 div p:nth-child(2) {
+        margin-top: 25px;
+        margin-bottom: 32px;
+    }
+
+    .section2 div p:nth-child(4) {
+        margin-bottom: 40px;
+    }
+
+    .section2 div img {
+        width: 438px;
+        margin-top: 120px;
+    }
+
+    /* Section 3 */
+    .section3 {
+        height: auto;
+    }
+
+    .section3 .container {
+        flex-direction: column;
+        width: 440px;
+        text-align: left;
+    }
+
+    .section3 .container h2 {
+        padding-top: 77px;
+        width: 100%;
+        margin-bottom: 52px;
+    }
+
+    .section3 .container img {
+        width: fit-content;
+        margin: 35px 0;
+    }
+
+    .section3 .container p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27.12px;
+    }
+
+    .section3 .container p span {
+        display: block;
+        margin-top: 44px;
+    }
+
+    .section3 .container button {
+        margin: 43px 0 60px 0;
+    }
+
+    /* Section 4 */
+    .section4 {
+        height: auto;
+        background-image: url(../assets/section4BackgroundTablet.svg);
+    }
+
+    .section4 .container {
+        flex-direction: column;
+        width: 440px;
+        text-align: left;
+    }
+
+    .section4 h2 {
+        text-align: left;
+        margin: 59px 0 44px 0;
+    }
+
+    .consultationBenefits {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .consultationBenefits>div {
+        width: auto;
+        padding: 44px 88px 24px 88px;
+        height: auto;
+    }
+
+    .consultationBenefits hr {
+        margin: 17px 0;
+        background-color: #B1E2FF;
+    }
+
+    .consultationBenefits ul li {
+        display: flex;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24.15px;
+    }
+
+    .consultationBenefits ul li::before {
+        display: block;
+        margin-top: 10px;
+        margin-left: 5px;
+        content: '   ';
+        width: 2px;
+    }
+
+    .consultationBenefits ul li p {
+        margin: 0;
+    }
+
+    .section4 button {
+        margin-bottom: 97px;
+    }
+
+    /* Section 5 */
+    .section5 {
+        height: auto;
+    }
+
+    .section5 .container {
+        width: 440px;
+        text-align: center;
+    }
+
+    .section5 h2 {
+        margin-top: 65px;
+        margin-bottom: 49px;
+    }
+
+    .dropdownFAQ {
+        gap: 12px;
+    }
+
+    .question {
+        font-size: 16px;
+        line-height: 27.60px;
+        padding: 8px;
+        border-radius: 12px;
+        text-align: left;
+    }
+
+    .arrowFAQ {
+        width: 12px;
+        height: 12px;
+        background-size: 12px;
+        margin: 0;
+    }
+
+    .answer {
+        margin: 0 15px;
+        font-size: 14px;
+    }
+
+    .section5 button {
+        margin-top: 44px;
+        margin-bottom: 66px;
+    }
+
+}
+
+@media (max-width: 675px) {
+    main {
+        padding-top: 0;
+    }
+
+    .mainBanner {
+        background-image: url(../assets/bannerBackgroundMobile.svg);
+    }
+
+    .mainBanner .mainTitleDiv h1 {
+        width: 100%;
+        color: #333333;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+        padding-top: 102px;
+        margin: 0;
+    }
+
+    .spotsAvailable {
+        margin: 19px 0;
+        font-size: 12px;
+        line-height: 19.01px;
+    }
+
+    .mainBanner .countdownDiv {
+        padding: 26px;
+    }
+
+    .countdownDiv>p {
+        font-size: 12px;
+        line-height: 19.01px;
+    }
+
+    .countdownTime label {
+        font-size: 8px;
+        line-height: 14.23px;
+        letter-spacing: 2.60px;
+    }
+
+    .countdownTime span {
+        font-size: 18px;
+        line-height: 32.02px;
+        width: 25px;
+    }
+
+    .mainDescriptionDivMobile {
+        display: flex !important;
+        align-items: center;
+    }
+
+    .mainDescription {
+        padding: 0;
+        margin-top: 29px;
+        margin-bottom: 0;
+        font-size: 16px;
+        line-height: 25.60px;
+    }
+
+    .mainButton {
+        margin-top: 43px;
+    }
+
+    /* Section 1 */
+    .section1 {
+        height: auto;
+        background-image: url(../assets/section1BackgroundMobile.svg);
+    }
+
+    .section1 .container {
+        padding: 51px 0;
+    }
+
+    .statisticsDiv {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .statisticsDiv>div {
+        width: 47.5%;
+        padding: 0 5px;
+        height: 156px;
+        margin-bottom: 23px;
+    }
+
+    .statisticsDiv>div>.shortDescription {
+        flex-grow: 0;
+        font-size: 12px;
+        line-height: 19.01px;
+    }
+
+    .section1 div button {
+        margin-top: 14px;
+    }
+
+    .statisticsDiv>div .statisticCount {
+        font-size: 18px;
+        line-height: 32.02px;
+    }
+
+    .statisticsDiv>div span {
+        font-size: 16px;
+        line-height: 28.46px;
+        margin-left: 2px;
+    }
+
+    .statisticsDiv>div {
+        justify-content: center;
+    }
+
+    /* Section 2 */
+
+    .section2 {
+        background-image: url(../assets/section2BackgroundMobile.svg);
+        height: auto;
+    }
+
+    .section2 div h2 {
+        font-size: 24px;
+        line-height: 38.40px;
+        width: 100%;
+    }
+
+    .section2 div p {
+        font-size: 14px;
+        line-height: 22.40px;
+    }
+
+    .section2 div img {
+        width: 322px;
+        margin-left: calc((100% - 322px) / 2);
+        position: relative;
+        margin-bottom: 80px;
+        word-wrap: none;
+    }
+
+    /* Section 3 */
+
+    .section3 .container h2 {
+        font-size: 24px;
+        line-height: 38.40px;
+        padding-top: 46px;
+        margin-bottom: 38px;
+    }
+
+    .section3 .container p {
+        margin: 0;
+        font-size: 16px;
+        line-height: 27.12px;
+    }
+
+    .section3 .container img {
+        width: 130%;
+    }
+
+    .section3 .container button {
+        margin: 61px 0;
+    }
+
+    /* Section 4 */
+    .section4 h2 {
+        margin: 39px 0 51px 0;
+        font-size: 24px;
+        line-height: 38.40px;
+    }
+
+    .consultationBenefits>div {
+        padding: 12px;
+    }
+
+    .consultationBenefits h3 {
+        font-size: 18px;
+        line-height: 31.05px;
+    }
+
+    .consultationBenefits ul {
+        margin-bottom: 0;
+    }
+
+    .consultationBenefits ul li:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+
+    /* Section 5 */
+    .section5 {
+        background-image: url(../assets/section5BackgroundMobile.svg);
+    }
+
+    .section5 h2 {
+        font-size: 24px;
+        line-height: 38.40px;
+    }
+
+    .question {
+        font-size: 14px;
+        line-height: 24.15px;
+    }
+
+    .dropdownFAQ {
+        margin-bottom: 19px;
+    }
+}
+@media (max-width: 320px) {
+    .mainBanner .mainTitleDiv h1 {
+        width: 100%;
+        color: #333333;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 38px;
+        text-align: center;
+        padding-top: 80px;
+        margin: 0;
+    }
+    .mainBanner .countdownDiv {
+        padding: 26px 8px;
+    }
+}

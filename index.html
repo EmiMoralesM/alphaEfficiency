@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emiliano Morales | Alpha Efficiency</title>
+    <link rel="shortcut icon" href="./assets/icons/favicon.svg" type="image/x-icon">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <!-- JS -->
+    <script defer src="./app.js"></script>
+    <!-- Animations CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://emilianomorales.com/resoursesPortfolio/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <h1 class="logo animate__animated animate__fadeInDown"><a href="#">Logo</a></h1>
+            </div>
+            <div>
+                <div class='hamburgerMenuIcon' for="menuCheck">
+                    <div></div>
+                </div>
+            </div>
+            <ul class="menuItems">
+                <li class="animate__animated animate__fadeInDown" style="animation-delay: .4s;"><a href="#">About Us</a>
+                </li>
+                <li class="animate__animated animate__fadeInDown" style="animation-delay: .6s;"><a href="#">Book
+                        Online</a></li>
+                <li class="animate__animated animate__fadeInDown" style="animation-delay: .8s;"><a href="#">Weight Loss
+                        Programs</a></li>
+                <li class="animate__animated animate__fadeInDown" style="animation-delay: 1s;"><a href="#">Real Patient
+                        Stories</a></li>
+                <li class="animate__animated animate__fadeInDown" style="animation-delay: 1.2s;"><a
+                        href="#">Locations</a></li>
+                <li class="animate__animated animate__fadeInDown" style="animation-delay: 1.4s;"><a href="#">Blog</a>
+                </li>
+                <li class="animate__animated animate__fadeInDown" style="animation-delay: 1.6s;"><a href="#">Shop</a>
+                </li>
+                <li class="animate__animated animate__fadeInDown" style="animation-delay: 1.8s;"><a
+                        href="#">Subscription</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="mainBanner">
+            <div class="container">
+                <div class="mainTitleDiv">
+                    <h1 class="animate__animated animate__fadeInLeft">Chicago’s <span>Free</span> Medical Check-Up and
+                        Weight Loss Consultation</h1>
+                    <p class="spotsAvailable showTablet">Only <span>11</span> spots available!</p>
+                    <p class="animate__animated animate__fadeIn hideTablet mainDescription">Limited spots available due
+                        to the
+                        Physicians schedule and the high demand for service. No credit
+                        card or insurance required.</p>
+                    <button class="animate__animated animate__fadeIn hideTablet mainButton">Book my appointment</button>
+                </div>
+                <div class="countdownDiv animate__animated animate__fadeIn" style="animation-delay: .6s;">
+                    <p>Your offer ends in:</p>
+                    <div class="countdownTime">
+                        <div class="days">
+                            <label>DAYS</label>
+                            <span id="days"></span>
+                        </div>
+                        <div class="hours">
+                            <label>HOURS</label>
+                            <span id="hours"></span>
+                        </div>
+                        <div class="minutes">
+                            <label>MINUTES</label>
+                            <span id="minutes"></span>
+                        </div>
+                        <div class="seconds">
+                            <label>SECONDS</label>
+                            <span id="seconds"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="showTablet mainDescriptionDivMobile">
+                    <p class="animate__animated animate__fadeIn mainDescription">There are limited spots due to the
+                        Physicians schedule and the high demand for service. No credit card or insurance required.</p>
+                    <button class="animate__animated animate__fadeIn mainButton">Book my appointment</button>
+                </div>
+            </div>
+        </section>
+        <section class="section1">
+            <div class="container">
+                <div class="statisticsDiv">
+                    <div class="animate__animated animate__fadeInUp wow" style="animation-delay: .2s;">
+                        <i></i>
+                        <div>
+                            <p class="statisticCount" data-target="10">0</p><span>+</span>
+                        </div>
+                        <p class="shortDescription">years in business</p>
+                    </div>
+                    <div class="animate__animated animate__fadeInUp wow" style="animation-delay: .4s;">
+                        <i></i>
+                        <div>
+                            <p class="statisticCount" data-target="2000">0</p><span>+</span>
+                        </div>
+                        <p class="shortDescription">positive reviews</p>
+                    </div>
+                    <div class="animate__animated animate__fadeInUp wow" style="animation-delay: .6s;">
+                        <i></i>
+                        <div>
+                            <p class="statisticCount" data-target="15000">0</p><span>+</span>
+                        </div>
+                        <p class="shortDescription">satisfied clients</p>
+                    </div>
+                    <div class="animate__animated animate__fadeInUp wow" style="animation-delay: .8s;">
+                        <i></i>
+                        <div>
+                            <p class="statisticCount">Many</p> <span>+</span>
+                        </div>
+                        <p class="shortDescription">nurses and physician assistants on staff</p>
+                    </div>
+                </div>
+                <button class="animate__animated animate__fadeIn wow" style="animation-delay: .4s;">Book my
+                    appointment</button>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="container">
+                <div>
+                    <h2 class="animate__animated animate__fadeInLeft wow">Who Is The Consultation For?</h2>
+                    <p class="animate__animated animate__fadeIn wow" style="animation-delay: .4s;">Chicago’s free
+                        medical check-up and weight loss consultation is for Chicago residents who are
+                        looking to lose weight so they can live a long, vibrant and healthy life, while looking good and
+                        not breaking the bank.</p>
+                    <h2 class=" animate__animated animate__fadeInLeft wow" style="animation-delay: .2s;">How Does It
+                        Work?</h2>
+                    <p class=" animate__animated animate__fadeIn wow" style="animation-delay: .6s;">In this exam a
+                        certified nurse or physician will do various tests to check your overall health
+                        level and find which easy-to-do physician-supervised weight loss program will work best for you.
+                    </p>
+                    <button class=" animate__animated animate__fadeIn wow" style="animation-delay: .6s;">Book my
+                        appointment</button>
+                </div>
+                <div>
+                    <img class="animate__animated animate__fadeIn wow" style="animation-delay: .4s;" src="./assets/girl.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeInDown wow">We Can Help You</h2>
+                <p class="animate__animated animate__fadeIn wow" style="animation-delay: .2s;">For those of us who
+                    struggle with our weight
+                    it’s easy to lose hope. We have seen so many tricks, gimmicks and weight loss programs that simply
+                    do not work for us. They want us to eat like a pigeon, avoid all the things we love to eat and work
+                    out till we cry.
+                    <span>We are here to tell you that it doesn’t have to be that way. There is hope! Technology has
+                        advanced rapidly in recent years and now, with proper guidance... </span>
+                </p>
+
+                <img class="showTablet animate__animated animate__fadeIn wow" style="animation-delay: .2s;"
+                    src="./assets/groupOfPeopleTablet.png" alt="">
+                <p class="animate__animated animate__fadeIn wow" style="animation-delay: .2s;"> You can join the ranks of our over 15,000 satisfied clients who have lost weight, regained their
+                    confidence and are living happy exuberant lives with their family. They did this without: breaking
+                    the bank, sweating buckets in intense workout programs, and most importantly, without giving up
+                    ice-cream, bread, pizza, doughnuts and all their favorite foods.</p>
+                <button class="hideTablet animate__animated animate__fadeIn wow" style="animation-delay: .2s;">Book my
+                    appointment</button>
+                <button class="showTablet animate__animated animate__fadeIn wow" style="animation-delay: .2s;">See
+                    patient stories</button>
+                <img src="./assets/groupOfPeople.png" class="hideTablet animate__animated animate__fadeIn wow" style="animation-delay: .3s;" alt="">
+            </div>
+        </section>
+        <section class="section4">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeInDown wow">What You’ll Get At Your <span>Free</span> Consultation</h2>
+                <div class="consultationBenefits">
+                    <div class="benefitBlue animate__animated animate__fadeInLeft wow" style="animation-delay: .3s;">
+                        <h3>Body Mass Index</h3>
+                        <hr>
+                        <ul>
+                            <li>
+                                <p>Complete understanding of your body composition</p>
+                            </li>
+                            <li>
+                                <p>A clear view of your weight loss goals</p>
+                            </li>
+                            <li>
+                                <p>Clear data to help you make an informed decision about your health</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="benefitPink animate__animated animate__fadeInRight wow" style="animation-delay: .3s;">
+                        <h3>Vital Signs Check</h3>
+                        <hr>
+                        <ul>
+                            <li>
+                                <p>Body temperature</p>
+                            </li>
+                            <li>
+                                <p>Pulse rate, heart's rate, rhythm and regularity</p>
+                            </li>
+                            <li>
+                                <p>Breathing rate</p>
+                            </li>
+                            <li>
+                                <p>Blood pressure</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="animate__animated animate__fadeIn wow" style="animation-delay: .3s;">Book my appointment</button>
+            </div>
+        </section>
+        <section class="section5">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeInDown wow">Frequently Asked Questions</h2>
+                <dl class="dropdownFAQ animate__animated animate__fadeIn wow" style="animation-delay: .4s;">
+                    <dt class="question">
+                        <p>Why is it free? </p>
+                        <span class="arrowFAQ"></span>
+                    </dt>
+                    <dd class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, a
+                        provident natus expedita incidunt sed id unde eos. Ea libero repellat animi laborum, ab optio et
+                        eaque tempore ut quod.</dd>
+
+                    <dt class="question">
+                        <p>Do I need this if I’ve had my yearly medical check? What is the difference?</p>
+                        <span class="arrowFAQ"></span>
+                    </dt>
+                    <dd class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, a
+                        provident natus expedita incidunt sed id unde eos. Ea libero repellat animi laborum, ab optio et
+                        eaque tempore ut quod.</dd>
+
+                    <dt class="question">
+                        <p>Can I bring another person to the appointment? </p>
+                        <span class="arrowFAQ"></span>
+                    </dt>
+                    <dd class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, a
+                        provident natus expedita incidunt sed id unde eos. Ea libero repellat animi laborum, ab optio et
+                        eaque tempore ut quod.</dd>
+
+                    <dt class="question">
+                        <p>How long does it take? </p>
+                        <span class="arrowFAQ"></span>
+                    </dt>
+                    <dd class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, a
+                        provident natus expedita incidunt sed id unde eos. Ea libero repellat animi laborum, ab optio et
+                        eaque tempore ut quod.</dd>
+
+                    <dt class="question">
+                        <p>What if I have to cancel or if I’m not sure I’ll be able to make it?</p>
+                        <span class="arrowFAQ"></span>
+                    </dt>
+                    <dd class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, a
+                        provident natus expedita incidunt sed id unde eos. Ea libero repellat animi laborum, ab optio et
+                        eaque tempore ut quod.</dd>
+
+                    <dt class="question">
+                        <p>Do I need to bring anything with me? </p>
+                        <span class="arrowFAQ"></span>
+                    </dt>
+                    <dd class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, a
+                        provident natus expedita incidunt sed id unde eos. Ea libero repellat animi laborum, ab optio et
+                        eaque tempore ut quod.</dd>
+
+                    <dt class="question">
+                        <p>What if I don’t have insurance? </p>
+                        <span class="arrowFAQ"></span>
+                    </dt>
+                    <dd class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, a
+                        provident natus expedita incidunt sed id unde eos. Ea libero repellat animi laborum, ab optio et
+                        eaque tempore ut quod.</dd>
+
+                    <dt class="question">
+                        <p>Do the weight loss programs you offer work? </p>
+                        <span class="arrowFAQ"></span>
+                    </dt>
+                    <dd class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, a
+                        provident natus expedita incidunt sed id unde eos. Ea libero repellat animi laborum, ab optio et
+                        eaque tempore ut quod.</dd>
+
+                    <dt class="question">
+                        <p>What’s the catch? </p>
+                        <span class="arrowFAQ"></span>
+                    </dt>
+                    <dd class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, a
+                        provident natus expedita incidunt sed id unde eos. Ea libero repellat animi laborum, ab optio et
+                        eaque tempore ut quod.</dd>
+
+                    <dt class="question">
+                        <p>Will I have to exhaust myself in the gym to make it work?</p>
+                        <span class="arrowFAQ"></span>
+                    </dt>
+                    <dd class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, a
+                        provident natus expedita incidunt sed id unde eos. Ea libero repellat animi laborum, ab optio et
+                        eaque tempore ut quod.</dd>
+
+                    <dt class="question">
+                        <p>Where are you located?</p>
+                        <span class="arrowFAQ"></span>
+                    </dt>
+                    <dd class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, a
+                        provident natus expedita incidunt sed id unde eos. Ea libero repellat animi laborum, ab optio et
+                        eaque tempore ut quod.</dd>
+                </dl>
+                <button class="hideMobile animate__animated animate__fadeIn wow">Book my appointment</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footerContactInfo">
+                <p class="logo"><a href="#"></a></p>
+                <p class="description">A Better Weigh Medical Weight Loss Center offers a weight loss program dedicated
+                    to helping you
+                    achieve long term weight loss success with the use of FDA approved medication.</p>
+                <div>
+                    <i class="locationIcon"></i>
+                    <p class="location"><strong>Head Office:</strong> 1931 W 95th Streeet Chicago IL, 60643</p>
+                </div>
+                <div>
+                    <i class="phoneIcon"></i>
+                    <p class="phone"><strong>Phone:</strong> 773-496-4222</p>
+                </div>
+
+            </div>
+            <div class="footerNavigation">
+                <div class="footerMenu">
+                    <nav>
+                        <p>About</p>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Book Online</a></li>
+                            <li><a href="#">Locations</a></li>
+                            <li><a href="#">Real Patient Stories</a></li>
+                            <li><a href="#">Weight Loss Programs</a></li>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <p>More Links</p>
+                        <ul>
+                            <li><a href="#">Franchise Opportunities</a></li>
+                            <li><a href="#">Career Opportunities</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container footerCopy">
+            <ul class="socialIcons">
+                <li class="instagram"><a href="https://www.instagram.com/"></a></li>
+                <li class="twitter"><a href="https://www.twitter.com/"></a></li>
+                <li class="facebook"><a href="https://www.facebook.com/"></a></li>
+            </ul>
+            <p>Copyright by A Better Weigh Inc. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
